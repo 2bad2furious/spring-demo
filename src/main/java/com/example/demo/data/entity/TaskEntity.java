@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.data.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 

@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.http.HttpStatus;

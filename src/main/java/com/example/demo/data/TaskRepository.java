@@ -1,5 +1,7 @@
-package com.example.demo;
+package com.example.demo.data;
 
+import com.example.demo.data.entity.TaskEntity;
+import com.example.demo.model.TaskData;
 import org.springframework.stereotype.Repository;
 
 import javax.validation.constraints.NotNull;
