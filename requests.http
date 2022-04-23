@@ -1,0 +1,24 @@
+GET http://localhost:8080/task
+
+###
+GET http://localhost:8080/task/d281a960-9dd7-4928-8902-eb021d0d3056
+
+###
+POST http://localhost:8080/task
+Content-Type: Application/Json
+
+{
+  "name": "Do stuff"
+}
+
+###
+PUT http://localhost:8080/task/d281a960-9dd7-4928-8902-eb021d0d3056
+Content-Type: Application/Json
+
+{
+  "name": "Do other stuff"
+}
+
+###
+DELETE http://localhost:8080/task/d281a960-9dd7-4928-8902-eb021d0d3056
+
